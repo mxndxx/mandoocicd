@@ -8,7 +8,7 @@
  * shuffle([1, 2, 3, 4])
  * // => [4, 1, 3, 2]
  */
-export function shuffle(array: any[]) {
+export function shuffle(array: number[]) {
   const length = array == null ? 0 : array.length;
   if (!length) {
     return [];

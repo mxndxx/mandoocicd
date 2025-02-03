@@ -13,7 +13,7 @@
  * // => [3, 4]
  */
 
-export default function slice(array: any[], start?: number, end?: number) {
+export default function slice(array: string[], start?: number, end?: number) {
   let length = array.length;
   if (!length) {
     return [];

@@ -5,7 +5,7 @@ import Login from "./Login";
 
 // axios mock에 대한 타입 정의
 jest.mock("axios");
-const mockedAxios = axios as jest.Mocked<typeof axios>;
+// const mockedAxios = axios as jest.Mocked<typeof axios>;
 
 describe("Login Component", () => {
   beforeEach(() => {
