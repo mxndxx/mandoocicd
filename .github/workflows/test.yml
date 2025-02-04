@@ -37,3 +37,8 @@ jobs:
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           slug: mxndxx/mandoocicd
+
+      - name: Create release in Sentry
+        uses: getsentry/action-release@v1
+        with:
+          sentry_auth_token: ${{ secrets.SENTRY_AUTH_TOKEN }}

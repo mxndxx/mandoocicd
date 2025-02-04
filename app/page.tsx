@@ -1,4 +1,5 @@
 import UpperInput from "./components/UpperInput";
+import GreetingBtn from "./components/greetingBtn";
 
 export default function Home() {
   return (
