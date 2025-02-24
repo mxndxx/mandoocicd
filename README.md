@@ -1,3 +1,4 @@
+[![codecov](https://codecov.io/github/mxndxx/mandoocicd/graph/badge.svg?token=3FQE8NLPED)](https://codecov.io/github/mxndxx/mandoocicd)
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
